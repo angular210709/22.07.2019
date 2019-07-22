@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="dataApp">
+<head>
+    <title>Clock!</title>
+    <script src="angular.js"></script>
+    <script src="bootstrap.js"></script>
+
+    <script src="formCtrl.js"></script>
+</head>
+<body >
+
+    <div ng-controller="formCtrl">
+            <h1>Name</h1>
+            <button ng-click="resetName()">Click to increase time</button>
+            <input type="text" ng-model="person.name" placeholder="Enter your name"/>
+            <h1>Name = {{person.name}}</h1>
+            <br>
+            <pr>Person = {{person | json}}</pr>
+    </div>
+    <br>
+</body>
+</html>
