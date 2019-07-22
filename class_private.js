@@ -1,3 +1,5 @@
+
+// NOT supported by all browsers!!
 class Person {
     
     #name;
