@@ -1,11 +1,12 @@
 class Person {
     
-    #x;
-    constructor(_x)
+    #name;
+    
+    constructor(_name)
     {
-      this.#x = _x
+      this.#name = _name
     }
 
-    get X() { return this.#x }
-    set X(points) { this.#x = points }
+    get Name() { return this.#name}
+    set Name(_name) { this.#name = _name }
 }
